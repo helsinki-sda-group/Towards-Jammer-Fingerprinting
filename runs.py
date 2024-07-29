@@ -39,10 +39,8 @@ for key in keys_to_loop1:
         elif key in d.keys():
             data[key] = np.array(d[key])
     print(data[key].shape)
-data_test = {}
-print(data)
-X, y = create_sequences(data, 4, 'all')
-print(X)
+
+X, y = create_sequences(data, 4, 'GNSS')
 plt.plot(X[0][0])
 # %%
 X_train_all, X_test, y_train_all, y_test = train_test_split(X,
@@ -76,7 +74,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 epochs = 50
-best_model = train(dataloader_train, dataloader_val, model, criterion, optimizer, epochs, 'my_BLSTM.pt')
+best_model = train(dataloader_train, dataloader_val, model, criterion, optimizer, epochs, 'arfidaas_BLSTM.pt')
 validate(dataloader_test, best_model)
 NUM_SAMPLE_INFERENCE = len(X_test)
 NUM_INFERENCES = 10
