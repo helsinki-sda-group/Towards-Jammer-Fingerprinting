@@ -1,0 +1,73 @@
+"""
+Jammer class names, please change the names as needed to correspond your classes.
+"""
+
+CLASSES_WITHOUT = {
+    'Jammer01NoGNSS': 1,
+    'Jammer02NoGNSS': 2,
+    'Jammer03NoGNSS': 3,
+    'Jammer04NoGNSS': 4,
+    'Jammer05NoGNSS': 5,
+    'Jammer06NoGNSS': 6,
+    'Jammer07NoGNSS': 7,
+    'Jammer08NoGNSS': 8,
+    'Jammer09NoGNSS': 9,
+    'Jammer10NoGNSS': 10,
+    'Jammer11NoGNSS': 11,
+    'Jammer12NoGNSS': 12,
+    'Jammer13NoGNSS': 13,
+    'Jammer11bNoGNSS': 14,
+    'Jammer12bNoGNSS': 15,
+    'Jammer14NoGNSS': 16,
+    'Jammer15NoGNSS': 17,
+    'Jammer16NoGNSS': 18,
+    'Jammer17NoGNSS': 19,
+    'Jammer18NoGNSS': 20,
+    'Jammer19NoGNSS': 21
+}
+
+CLASSES_WITH = {
+    'Jammer01': 1,
+    'Jammer02': 2,
+    'Jammer03': 3,
+    'Jammer04': 4,
+    'Jammer05': 5,
+    'Jammer06': 6,
+    'Jammer07': 7,
+    'Jammer08': 8,
+    'Jammer09': 9,
+    'Jammer10': 10,
+    'Jammer11': 11,
+    'Jammer12': 12,
+    'Jammer13': 13,
+    'Jammer11b': 14,
+    'Jammer12b': 15,
+    'Jammer14': 16,
+    'Jammer15': 17,
+    'Jammer16': 18,
+    'Jammer17': 19,
+    'Jammer18': 20,
+    'Jammer19': 21
+}
+
+CLASS_NAMES = ['Jammer01',
+    'Jammer02',
+    'Jammer03',
+    'Jammer04',
+    'Jammer05',
+    'Jammer06',
+    'Jammer07',
+    'Jammer08',
+    'Jammer09',
+    'Jammer10',
+    'Jammer11a',
+    'Jammer12a',
+    'Jammer13',
+    'Jammer11b',
+    'Jammer12b',
+    'Jammer14',
+    'Jammer15',
+    'Jammer16',
+    'Jammer17',
+    'Jammer18',
+    'Jammer19']
