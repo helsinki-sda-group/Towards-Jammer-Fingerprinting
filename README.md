@@ -30,9 +30,11 @@ General machine learning, signal and data processing libraries
 - PyTorch
 - seaborn
 - scipy
+
 For plotting
 - seaborn
 - matplotlib
+
 Bayesian network
 - blitz
 
